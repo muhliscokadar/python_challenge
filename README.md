@@ -1,19 +1,14 @@
-# python_challenge
-1. Create a new GitHub repo called `python-challenge`. Then, clone it to your computer.
+There are two projects in this repository:
 
-2. Inside your local git repository, create a directory for both of the  Python Challenges. Use folder names corresponding to the challenges: **PyBank** and  **PyPoll**.
 
-3. Inside of each folder that you just created, add a new file called `main.py`. This will be the main script to run for each analysis.
-
-4. Push the above changes to GitHub.
 
 ## PyBank
 
-![Revenue](Images/revenue-per-lead.jpg)
+### Revenue
 
-* In this challenge, you are tasked with creating a Python script for analyzing the financial records of your company. You will give a set of financial data called [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`. (Thankfully, your company has rather lax standards for accounting so the records are simple.)
+* Created a Python script for analyzing the financial records of the company. 
 
-* Your task is to create a Python script that analyzes the records to calculate each of the following:
+* Created a Python script that analyzes the records to calculate each of the following:
 
   * The total number of months included in the dataset
 
@@ -25,7 +20,7 @@
 
   * The greatest decrease in losses (date and amount) over the entire period
 
-* As an example, your analysis should look similar to the one below:
+* As an example of analysis is below:
 
   ```text
   Financial Analysis
@@ -37,15 +32,15 @@
   Greatest Decrease in Profits: Sep-2013 ($-2196167)
   ```
 
-* In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+
 
 ## PyPoll
 
-![Vote-Counting](Images/Vote_counting.jpg)
+### Vote-Counting
 
-* In this challenge, you are tasked with helping a small, rural town modernize its vote-counting process. (Up until now, Uncle Cleetus had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
+* Helping a small, rural town modernize its vote-counting process. 
 
-* You will be give a set of poll data called [election_data.csv](PyPoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. Your task is to create a Python script that analyzes the votes and calculates each of the following:
+* Created a Python script with the dataset (`election_data.csv`) whice  composed of three columns: `Voter ID`, `County`, and `Candidate`:
 
   * The total number of votes cast
 
@@ -57,7 +52,8 @@
 
   * The winner of the election based on popular vote.
 
-* As an example, your analysis should look similar to the one below:
+* As an example of analysis is below:
+
 
   ```text
   Election Results
